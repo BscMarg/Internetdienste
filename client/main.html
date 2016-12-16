@@ -1,0 +1,54 @@
+<head>
+	<title>MinecraftSite</title>
+</head>
+
+<body>
+  {{> wholeSiteTemplate}}
+</body>
+
+
+<template name="wholeSiteTemplate">
+	<div id="wholeSiteDiv">
+		{{> headerTemplate}} 
+		{{> mainContentTemplate}}
+		{{> footerTemplate}}
+	</div>
+</template>
+
+<template name="headerTemplate">
+	<div id="headerDiv">
+		{{> headerButtonsTemplate}}
+	</div>
+</template>
+
+<template name="headerButtonsTemplate">
+		<div class=".hvr-bounce-in" id="headerButtonFrontpageDiv">
+		</div>
+		<div class=".hvr-bounce-in" id="headerButtonFaqDiv">
+		</div>
+		<div class=".hvr-bounce-in" id="headerButtonOfferDiv">
+		</div>
+		<div class=".hvr-bounce-in" id="headerButtonRegistDiv">
+		</div>
+		<div class=".hvr-bounce-in" id="headerButtonLoginDiv">
+		</div>
+		<div class=".hvr-bounce-in" id="headerButtonSettingsDiv">
+		</div>
+</template>
+
+<template name="mainContentTemplate">
+	<div id="mainContentDiv">
+		{{> contentTextTemplate}}
+	</div>
+</template>
+
+<template name="contentTextTemplate">
+	<div id="contentTextDiv">
+	
+	</div>
+</template>
+
+<template name="footerTemplate">
+	<div id="footerDiv">
+	</div>
+</template>
